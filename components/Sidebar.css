@@ -1,0 +1,33 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    position: fixed; /* Fixed sidebar */
+    height: 100%; /* Full height */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 15px 0; /* Space between links */
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
